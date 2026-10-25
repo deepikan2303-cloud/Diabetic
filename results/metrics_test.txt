@@ -1,0 +1,20 @@
+Run: binary_efficientnetb0   split: test   n=550
+Accuracy     : 0.9455
+F1 (macro)   : 0.9455
+F1 (weighted): 0.9455
+ROC-AUC      : 0.9837
+Sensitivity  : 0.9283  (DR cases caught)
+Specificity  : 0.9631  (healthy eyes correctly cleared)
+
+              precision    recall  f1-score   support
+
+       No DR      0.929     0.963     0.946       271
+          DR      0.963     0.928     0.945       279
+
+    accuracy                          0.945       550
+   macro avg      0.946     0.946     0.945       550
+weighted avg      0.946     0.945     0.945       550
+
+Confusion matrix (rows = true, cols = predicted):
+[[261  10]
+ [ 20 259]]
